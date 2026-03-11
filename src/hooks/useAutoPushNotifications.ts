@@ -11,7 +11,7 @@ interface PushMessage {
 const predefinedMessages: Record<PushMessageType, PushMessage> = {
   '1': {
     title: '🔔 Boas-vindas',
-    body: '👋 Olá! Bem-vindo ao Poupa — o jeito mais fácil de agendar seus documentos sem filas e sem stress. Vamos agilizar seu atendimento agora mesmo?'
+    body: '👋 Olá! Bem-vindo — o jeito mais fácil de agendar seus documentos sem filas e sem stress. Vamos agilizar seu atendimento agora mesmo?'
   },
   '2': {
     title: '🔔 Início do processo',
