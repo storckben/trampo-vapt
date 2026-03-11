@@ -50,7 +50,7 @@ export const ToastNotification = ({
                 <h3 className="text-sm font-semibold text-white truncate">
                   {title}
                 </h3>
-                <p className="text-xs text-gray-300">​Р​о​u​р​а​ ​Т​е​m​р​о</p>
+                <p className="text-xs text-gray-300">​V​а​р​t​ ​V​u​р​t</p>
               </div>
               <span className="text-xs text-gray-400 ml-2">agora</span>
             </div>
