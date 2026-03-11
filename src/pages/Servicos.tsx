@@ -178,7 +178,7 @@ const Servicos = () => {
           <img 
             src="/lovable-uploads/77c50366-3c6d-4d7b-b8a7-4fa2fc4e1fa3.png" 
             alt="imagem" 
-            className="h-8 cursor-pointer hover:opacity-80 transition-opacity"
+            className="h-14 cursor-pointer hover:opacity-80 transition-opacity"
             onClick={() => navigate('/')}
           />
           <div className="flex gap-8">
