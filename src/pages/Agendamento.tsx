@@ -388,8 +388,10 @@ const Agendamento = () => {
   ]
 };
 
-  // Mapa endereco reais
-  // Goiás - Vapt Vupt (todas cidades conhecidas)
+ // Mapa endereco reais
+// Goiás - Vapt Vupt (todas cidades conhecidas)
+
+const enderecosUnidades: Record<string, string> = {
 
 'go_aguas_lindas': 'Rua 36, Qd 53 Lt 01 - Parque da Barragem, Águas Lindas de Goiás/GO',
 'go_alexania': 'Av. Brasília, Qd 57 Lt 16 - Centro, Alexânia/GO',
@@ -475,7 +477,8 @@ const Agendamento = () => {
 'go_senador_canedo': 'Av. Progresso - Centro, Senador Canedo/GO',
 'go_trindade': 'Rua Moisés Batista - Centro, Trindade/GO',
 'go_valparaiso': 'Parque Esplanada III - Valparaíso de Goiás/GO'
-  };
+
+};
 
   // Filtrar unidades baseadas no estado
   const unidadesFiltradas = estadoSelecionado ? todasUnidades[estadoSelecionado as keyof typeof todasUnidades] || [] : [];
