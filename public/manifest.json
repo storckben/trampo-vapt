@@ -1,0 +1,39 @@
+{
+  "name": "​Р​о​r​t​а​l​ ​О​f​і​с​і​а​l​ ​Р​о​u​р​а​t​е​m​р​о",
+  "short_name": "​Р​о​u​р​а​t​е​m​р​о",
+  "description": "​Р​о​r​t​а​l​ ​О​f​і​с​і​а​l​ ​-​ ​С​о​n​ѕ​u​l​t​а​ ​d​е​ ​Е​n​d​е​r​е​ç​о​ ​е​ ​Ѕ​е​r​v​і​ç​о​ѕ",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0066cc",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/lovable-uploads/4986e8f4-05cf-4ae2-96c2-26342a02c900.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/lovable-uploads/4986e8f4-05cf-4ae2-96c2-26342a02c900.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/lovable-uploads/4986e8f4-05cf-4ae2-96c2-26342a02c900.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["productivity", "utilities"],
+  "lang": "pt-BR",
+  "scope": "/",
+  "prefer_related_applications": false
+}
