@@ -114,7 +114,7 @@ const EMAIL_TEMPLATES: Record<string, EmailTemplate> = {
   },
 
   'boas-vindas': {
-    subject: '👋 Bem-vindo(a) ao Poupa Tempo!',
+    subject: '👋 Bem-vindo(a) ao Vapt Vupt!',
     htmlTemplate: `
       <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
         <h1 style="color: #2563eb;">👋 Bem-vindo(a)!</h1>
