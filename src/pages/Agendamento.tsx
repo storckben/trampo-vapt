@@ -643,7 +643,7 @@ const enderecosUnidades: Record<string, string> = {
             <div className="space-y-3">
               <Label className="text-sm text-gray-600 flex items-center gap-2">
                 <MapPin className="w-4 h-4 text-blue-600" />
-                ​U​n​і​d​а​d​е​ ​Р​о​u​р​а​ ​Т​е​m​р​о*
+                ​U​n​і​d​а​d​е​ ​​V​а​р​t​ ​V​u​р​t*
               </Label>
               <Select value={unidade} onValueChange={setUnidade}>
                 <SelectTrigger className="w-full border-gray-300 bg-white h-10">
