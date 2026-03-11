@@ -22,7 +22,7 @@ const Index = () => {
   const [numero, setNumero] = useState('');
   const [bairro, setBairro] = useState('');
   const [cidade, setCidade] = useState('');
-  const [estado, setEstado] = useState('SP'); // Pré-selecionar São Paulo
+  const [estado, setEstado] = useState('GO'); // Pré-selecionar Goias
   const [loading, setLoading] = useState(false);
 
   // Notificação automática de boas-vindas
@@ -32,7 +32,7 @@ const Index = () => {
   }, [sendWelcomeMessage]);
 
   const estados = [
-    { value: 'SP', label: 'São Paulo' },
+    { value: 'GO', label: 'Goiás' },
   ];
 
   const isFormValid = () => {
